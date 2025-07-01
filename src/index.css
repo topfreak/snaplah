@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --color-pink: #ec4899;
+  --color-orange: #f97316;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fefcff;
+    @apply text-gray-800;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, var(--color-pink), var(--color-orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.gradient-bg {
+    background: linear-gradient(90deg, var(--color-pink), var(--color-orange));
+}
+
+.gallery-item {
+    @apply relative overflow-hidden rounded-2xl shadow-md;
+}
+.gallery-item .overlay {
+    @apply absolute inset-0 flex items-end bg-gradient-to-t from-black/80 to-transparent p-4 opacity-0 transition-opacity duration-300;
+}
+.gallery-item:hover .overlay {
+    @apply opacity-100;
+}
+.gallery-item .overlay-title {
+    @apply font-bold text-white translate-y-5 transition-transform duration-300;
+}
+.gallery-item:hover .overlay-title {
+    @apply translate-y-0;
+}
+
+.blob {
+    @apply absolute rounded-full -z-10;
+    filter: blur(80px);
+}
