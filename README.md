@@ -33,7 +33,7 @@ Snaplah adalah aplikasi web modern yang memungkinkan Anda membuat photostrip kre
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/username/snaplah-app.git
+   git clone https://github.com/topfreak/snaplah.git
    cd snaplah-app
    ```
 
@@ -183,18 +183,12 @@ Project ini menggunakan ESLint dengan konfigurasi untuk React dan modern JavaScr
 
 Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail.
 
-## 👥 Team
+## 👨‍💻 Author
 
-- **Developer**: [Your Name]
-- **Designer**: [Designer Name]
-- **Project Manager**: [PM Name]
-
-## 📞 Support
-
-Jika Anda memiliki pertanyaan atau membutuhkan bantuan:
-- 📧 Email: support@snaplah.com
-- 💬 Discord: [Server Link]
-- 📱 WhatsApp: [Phone Number]
+**Taufiq Hidayatullah**
+- Universitas: Universitas Amikom Yogyakarta
+- Program Studi: S1-Informatika
+- Email: topik.id.x@gmail.com
 
 ---
 
